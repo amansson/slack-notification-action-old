@@ -18,7 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: amansson/slack-notification-action
+    - uses: amansson/slack-notification-action@master
       with:
         channel: G0116U6G4H3
         status: STARTED
